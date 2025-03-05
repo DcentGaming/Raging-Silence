@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5008458260315671221}
   - component: {fileID: 2824129234188155169}
   - component: {fileID: 1346118399974266447}
-  - component: {fileID: -3655923878653864788}
   - component: {fileID: -2264886811927410131}
+  - component: {fileID: -4924108506426530178}
   m_Layer: 0
   m_Name: Guards
   m_TagString: Untagged
@@ -110,20 +110,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-3655923878653864788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9057502057213880983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 162356eb91ad549428e2992a5be6c6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Guard: {fileID: -2264886811927410131}
-  speed: 5
 --- !u!143 &-2264886811927410131
 CharacterController:
   m_ObjectHideFlags: 0
@@ -149,3 +135,15 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-4924108506426530178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057502057213880983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162356eb91ad549428e2992a5be6c6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
