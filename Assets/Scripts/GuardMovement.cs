@@ -16,7 +16,10 @@ public class GuardMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (agent.destination == Post_1.position) agent.destination = Post_2.position;
-        else agent.destination = Post_1.position;
+        if (Vector3.Distance(transform.position, Post_1.position) <= 0.5f) agent.destination = Post_2.position;
+        if (Vector3.Distance(transform.position, Post_2.position) <= 0.5f) agent.destination = Post_1.position;
+
+
+
     }
 }
