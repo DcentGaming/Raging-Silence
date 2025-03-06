@@ -337,11 +337,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 807cdee23fce4694488e9b91e71289ea, type: 3}
---- !u!54 &248091861 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: -4365626075061144555, guid: 901f8991d99516244955ff6ead213863, type: 3}
-  m_PrefabInstance: {fileID: 3250799675459944487}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498114010
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +559,14 @@ PrefabInstance:
       propertyPath: Post_2
       value: 
       objectReference: {fileID: 663054762}
+    - target: {fileID: -990731279844950801, guid: 953cd74ca8e79064aa88a5a494d93362, type: 3}
+      propertyPath: FOV
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: -990731279844950801, guid: 953cd74ca8e79064aa88a5a494d93362, type: 3}
+      propertyPath: viewRadius
+      value: 25.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4579547444641670754, guid: 953cd74ca8e79064aa88a5a494d93362, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.137
@@ -1286,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 2219820204166782149, guid: 901f8991d99516244955ff6ead213863, type: 3}
       propertyPath: RGBD
       value: 
-      objectReference: {fileID: 248091861}
+      objectReference: {fileID: 0}
     - target: {fileID: 3714554806984057082, guid: 901f8991d99516244955ff6ead213863, type: 3}
       propertyPath: m_Name
       value: Player
