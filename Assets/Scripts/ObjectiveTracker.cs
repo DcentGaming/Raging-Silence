@@ -10,7 +10,9 @@ public class ObjectiveTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (goalTracker < goal)
-        goalText.text = "Objective:";   
+        if (goalTracker < goal)
+            goalText.text = "Objective:\nPaint your frustrations!\t" + goalTracker + " / " + goal;
+        if (goalTracker >= goal)
+            goalText.text = "Objective:\nEscape the area!\nGo back to the start!";
     }
 }
