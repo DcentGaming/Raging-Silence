@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -6,6 +7,8 @@ public class GuardMovement : MonoBehaviour
     public Transform Post_1;
     public Transform Post_2;
     private NavMeshAgent agent;
+    public Angle<float> FOV;
+    public Transform _player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

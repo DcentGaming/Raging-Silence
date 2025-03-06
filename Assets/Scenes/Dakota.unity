@@ -337,6 +337,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 807cdee23fce4694488e9b91e71289ea, type: 3}
+--- !u!54 &248091861 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: -4365626075061144555, guid: 901f8991d99516244955ff6ead213863, type: 3}
+  m_PrefabInstance: {fileID: 3250799675459944487}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498114010
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,9 +621,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1601709760}
     m_Modifications:
+    - target: {fileID: -4428082005630530748, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
+      propertyPath: Lookout
+      value: 
+      objectReference: {fileID: 1674040004}
     - target: {fileID: 4579547444641670754, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.87
+      value: -15.07
       objectReference: {fileID: 0}
     - target: {fileID: 4579547444641670754, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
       propertyPath: m_LocalPosition.y
@@ -626,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4579547444641670754, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.28
+      value: 12.2
       objectReference: {fileID: 0}
     - target: {fileID: 4579547444641670754, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
       propertyPath: m_LocalRotation.w
@@ -917,6 +926,11 @@ Transform:
 --- !u!4 &1674040003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4579547444641670754, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
+  m_PrefabInstance: {fileID: 1419443877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &1674040004 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: -2264886811927410131, guid: 708f8ed28558a344c95152dbf2a5e927, type: 3}
   m_PrefabInstance: {fileID: 1419443877}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1803610814 stripped
@@ -1265,6 +1279,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4365626075061144555, guid: 901f8991d99516244955ff6ead213863, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219820204166782149, guid: 901f8991d99516244955ff6ead213863, type: 3}
+      propertyPath: RGBD
+      value: 
+      objectReference: {fileID: 248091861}
     - target: {fileID: 3714554806984057082, guid: 901f8991d99516244955ff6ead213863, type: 3}
       propertyPath: m_Name
       value: Player
